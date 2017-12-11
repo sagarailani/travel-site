@@ -1001,3 +1001,25 @@ a{
     font-size: 0.9375rem;
     margin: 0.25rem 0 1rem 0;
   }
+
+.site-footer{
+  background-color: #2f5572;
+  color: WHITE;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.site-footer__text{
+    font-weight: 200;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+@media (min-width: 530px){
+
+.site-footer__text{
+      margin-bottom: 0;
+      display: inline;
+      margin-right: 1.4rem
+  }
+  }
