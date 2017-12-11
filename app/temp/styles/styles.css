@@ -1002,7 +1002,6 @@ a{
     margin: 0.25rem 0 1rem 0;
   }
 
-<<<<<<< HEAD
 .icon--clear-view-escapes{
     width: 142.4px;
     heigth: 59.53px;
@@ -1062,7 +1061,7 @@ a{
 .icon--star{
     width: 64px;
     heigth: 64px;
-    background-image: url('./temp/sprite/css/svg/sprite.css-69f19c2e.svg');
+    background-image: url('/temp/sprite/css/svg/sprite.css-69f19c2e.svg');
     background-position: 59.11330049261084% 99.56481481481481%;
   }
 
@@ -1085,7 +1084,8 @@ a{
     heigth: 42px;
     background-image: url('/temp/sprite/css/svg/sprite.css-69f19c2e.svg');
     background-position: 36.69752421959096% 45.792307692307695%;
-=======
+  }
+
 .site-footer{
   background-color: #2f5572;
   color: WHITE;
@@ -1106,5 +1106,4 @@ a{
       display: inline;
       margin-right: 1.4rem
   }
->>>>>>> footer
   }
