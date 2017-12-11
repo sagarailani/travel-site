@@ -1,6 +1,6 @@
 require('./gulp/tasks/styles');
 require('./gulp/tasks/watch');
-
+require('./gulp/tasks/sprites');
 // Everything in gulp revolves around tasks.
 
 
