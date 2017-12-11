@@ -1002,6 +1002,7 @@ a{
     margin: 0.25rem 0 1rem 0;
   }
 
+<<<<<<< HEAD
 .icon--clear-view-escapes{
     width: 142.4px;
     heigth: 59.53px;
@@ -1084,4 +1085,26 @@ a{
     heigth: 42px;
     background-image: url('/temp/sprite/css/svg/sprite.css-69f19c2e.svg');
     background-position: 36.69752421959096% 45.792307692307695%;
+=======
+.site-footer{
+  background-color: #2f5572;
+  color: WHITE;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.site-footer__text{
+    font-weight: 200;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+@media (min-width: 530px){
+
+.site-footer__text{
+      margin-bottom: 0;
+      display: inline;
+      margin-right: 1.4rem
+  }
+>>>>>>> footer
   }
