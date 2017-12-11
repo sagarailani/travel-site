@@ -12,6 +12,7 @@
     transform: translateY(-50%);
     width: 100%;
     text-align: center;
+    padding-top: 60px;
   }
 
   &__title{
