@@ -15,6 +15,10 @@
     color: $mainBlue;
   }
 
+  &--less-margin{
+    margin-bottom: 1.3rem;
+  }
+
   &__icon{
     display: block;
     margin-left: auto;
@@ -23,7 +27,7 @@
 
     @mixin atSmall{
       position: relative;
-      top: 8px; 
+      top: 8px;
       margin-right: 1.5rem;
       margin-left: 0;
       margin-bottom: 0;
