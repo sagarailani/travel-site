@@ -16,7 +16,7 @@ class Modal {
     this.closeModalButton.click(this.closeModal.bind(this));
 
     // pushes any key
-    $(document).keyup(this.keyPressHandler.bind(this));
+    $(document).keyup(this.keyPressHandler.bind(this ));
   }
 
   keyPressHandler(e){
