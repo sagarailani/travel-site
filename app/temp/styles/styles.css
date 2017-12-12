@@ -1312,13 +1312,13 @@ a{
   }
 
 .primary-nav li:last-child{
-    padding: 0;
+    padding-right: 0;
   }
 
 @media(min-width: 800px){
 
 .primary-nav li:last-child{
-      padding: 20px
+      padding-right: 20px
   }
   }
 
@@ -1339,4 +1339,18 @@ a{
       padding: 12px 0;
       background-color: transparent
   }
+  }
+
+.reveal-item{
+  opacity: 0;
+  -webkit-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.reveal-item--is-visible{
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
